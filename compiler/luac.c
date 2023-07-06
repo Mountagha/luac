@@ -160,7 +160,7 @@ static int writer(lua_State* L, const void* p, size_t size, void* u)
  UNUSED(L);
  return fwrite(p,size,1,(FILE*)u)==1;
 }
-
+/*
 int main(int argc, char* argv[])
 {
  lua_State* L;
@@ -191,3 +191,4 @@ int main(int argc, char* argv[])
  lua_close(L);
  return 0;
 }
+*/
